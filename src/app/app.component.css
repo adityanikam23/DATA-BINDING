@@ -1,0 +1,77 @@
+*{
+    text-transform: capitalize;
+}
+h1{
+    text-align: center;
+}
+.left{
+    padding-left: 20px;
+}
+.center{
+    text-align: center;
+}
+.mybtn{
+    background-color: blue;
+    color: white;
+    border: 0;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+button{
+    padding: 15px;
+    font-weight: bolder;
+}
+.right{
+    text-align: right;
+    padding-right: 20px;
+}
+input{
+    padding: 15px;
+    width: 20%;
+    font-size: large;
+}
+select{
+    width: 20%;
+    padding: 10px;
+    font-size: large;
+}
+option{
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+.myinput{
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.btnone{
+    background-color: blue;
+    color: white;
+    border: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 15px;
+
+}
+li{
+    font-size: large;
+    font-weight: bold;
+    background-color: cadetblue;
+    color:white
+}
+.displaymsg{
+    background-color: brown;
+    color: white;
+}
+.select{
+    background-color: hotpink;
+    color: white;
+    font-weight: bolder;
+}
+.name{
+    background-color: goldenrod;
+    color: white;
+}

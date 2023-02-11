@@ -1,0 +1,76 @@
+<h1>data binding in angular:</h1>
+
+<div class="left">
+    <h2>string interpolation in angular</h2>
+
+    <h2>ADDING VALUE TS TO HTML -  SINGLE DATABINDING</h2>
+    
+
+    <!--ADDING TITLE ON WEB PAGE-->
+    <h3>{{mytitle}}</h3>
+
+    <h2>{{x}}</h2>
+
+</div>
+
+<div class="center">
+    <h2>property binding in angular:</h2>
+
+    <button class="forcolor" type="button" [disabled]="enable">property binding</button><br><br><br>
+
+    <button class="mybtn" type="button" (click)="myfunction()">click here to display property databinding</button>
+    
+</div>
+
+<div class="right">
+
+    <h2>event binding in angular</h2>
+
+    <h2></h2>
+
+    <button class="mybtn" (click)="clickme(' ANGULAR')" type="button">click me to display event binding</button>
+</div>
+
+
+<div class="center">
+
+    <h2>input type text</h2>
+
+    <h2 class="name">{{name}}</h2>
+
+    <input type="text" placeholder="type any here" [(ngModel)] ="name"> 
+    <br>
+</div>
+
+<div class="left">
+    <h2>first assignment array:</h2>
+
+    <h2 class="select">{{xyz}}</h2>
+
+    <select (change)="selectmonth($event)">
+        <option *ngFor="let m of month">{{m}}</option>
+    </select>
+
+</div>
+
+<div class="center">
+    <h2>today task</h2>
+
+    <input class="myinput" type="text" placeholder="type any here" [(ngModel)]="myinfo">
+
+    <button type="button" (click)="clicktogo()" class="btnone" >click here to move in list</button>
+
+    <ul *ngFor="let i of information">
+        <li>{{i}}</li>
+    </ul>
+</div>
+
+<div class="right">
+    <h2>assignment no.2:</h2>
+
+    <h2 class="displaymsg">{{display}}</h2>
+
+    <input type="text" placeholder="please enter your name" [(ngModel)] = "mymodel"><br><br>
+
+    <button type="button" class="mybtn" (click)="showmsg()">click me </button>
+</div>
